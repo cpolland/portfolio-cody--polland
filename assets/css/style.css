@@ -43,6 +43,27 @@ section img {
     left: 475px; top: -150px;
     width: 50%;
     height: auto;
+    }
+article {
+    background-color: rgb(192, 192, 192);
+}
+article h3{
+    font-size: 30px;
+}
+article img {
+   display: inline-block;
+   width: 150px;
+   height: 150px;
+   
     
 }
+.project1 {
+    position: relative;
+    left: -30px; top: -150px;
+    width: 50%;
+    height: auto;
+    
+
+}
+
 
