@@ -10,29 +10,27 @@ a{
 }
     
     /*Color of the whole site*/
-body{
-    background-color: rgb(255, 255, 255);
-}
+
 /*styling of navigation bar*/
 header{
-    margin-right: 20px;
-    border:2px;
+
     background-color: rgb(192, 192, 192);
     color: black;
 }
-header h1 {
+h1 {
     display: block;
     font-size: 45px;
     position:relative; left:0px; top:110px;
 }
-header nav {
+nav {
     margin-right: 0px;
 
     
 }
 header ul li {
 display: inline-flex;
-position: relative; left:425px; top: 23px;
+position: relative; left:325px; top: 23px;
+
 }
 
 section{ 
@@ -41,11 +39,11 @@ section{
 }
 section div {
     position: relative;
-    left: -30px; top: 100px;
+    left: -50px; top: 100px;
   }
 section img {
     position: relative;
-    left: 475px; top: -150px;
+    left: 400px; top: -150px;
     width: 50%;
     height: auto;
     }
@@ -56,6 +54,10 @@ article h3{
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
+}
+.first-project {
+    height: 500px;
+    width: 500px;
 }
 article img {
    display: inline-block;
@@ -71,8 +73,9 @@ article div{
   
 }
 article a:hover{
-    background-color: red;
+    background-color: rgb(71, 71, 71);
 }
+
 section h4{
     text-align: center;
 }
@@ -88,10 +91,29 @@ h5{
     text-decoration: underline;
 }
 address div{
-    align-items: center;
+    text-align: center;
     display: inline-flex;
     position: relative; left: 275px; top: 23px;
     
 }
+@media screen and (max-width: 820px){
+    header ul li {
+    left: 250px;
+    top: 8px;
+     margin:0px;
+     }
 
-
+    h1 {
+    position:relative; left:0px; top:75px;
+    }
+    section div {
+        text-align: center;
+        left: -50px; top: 0px;
+    }
+    section img{
+        left: 100px; top: 0px;
+        }
+    address div {
+        position: relative; left: 100px; top: 23px;
+    }
+}
