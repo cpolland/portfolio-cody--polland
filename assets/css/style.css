@@ -3,9 +3,13 @@
     padding: 0;
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+a{
+    color: black;
     
+}
     
-}/*Color of the whole site*/
+    /*Color of the whole site*/
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -64,14 +68,23 @@ article div{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  
+}
+article a:hover{
+    background-color: red;
 }
 section h4{
     text-align: center;
 }
 
-h5{
-    font-size: 30px;
+h4{
+    font-size: 50px;
     text-align: center;
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+    font-size: 30px;
     text-decoration: underline;
 }
 address div{
