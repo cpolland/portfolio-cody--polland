@@ -3,13 +3,14 @@
     padding: 0;
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
 }/*Color of the whole site*/
 body{
     background-color: rgb(255, 255, 255);
 }
 /*styling of navigation bar*/
 header{
-    padding: 0px;
     margin-right: 20px;
     border:2px;
     background-color: rgb(192, 192, 192);
@@ -49,21 +50,35 @@ article {
 }
 article h3{
     font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 article img {
    display: inline-block;
-   width: 150px;
-   height: 150px;
-   
-    
+   width: 200px;
+   height: 200px;
 }
-.project1 {
-    position: relative;
-    left: -30px; top: -150px;
-    width: 50%;
-    height: auto;
-    
 
+article div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section h4{
+    text-align: center;
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+address div{
+    align-items: center;
+    display: inline-flex;
+    position: relative; left: 275px; top: 23px;
+    
 }
 
 
